@@ -1,0 +1,4 @@
+Thanks to this tool we can easily see that, in this communication, only 2 protocols are involved
+(ARP and TCP), and 2 IPs as well (192.168.56.1 and 192.168.56.102).
+In order to have a better overview of the communication, we can go to “analyze / follow / TCP
+stream ”, and this screen will show all of the messages.
