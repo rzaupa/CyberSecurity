@@ -1,0 +1,4 @@
+We first filter the packets by http (see the bar with "App a display filter").
+As filter, type "http".
+
+By inspecting the "Hypertext transfer protocol", you might find the flag. 

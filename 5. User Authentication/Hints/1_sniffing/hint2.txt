@@ -1,0 +1,3 @@
+We reduced the traffic. In this small set of packets, we can see some request
+of authentications (Info "GET / HTTP/1.1.").
+One of these packets has been accepted (see its following packet).
