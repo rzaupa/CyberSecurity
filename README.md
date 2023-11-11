@@ -7,3 +7,5 @@ Es non risolti:
 - User A. es 1-2-3
 - Web Intro es 1-2-3
 - IoW es 1-2-3
+- LV es 1-2-3
+- WI es 1-2-3-4
