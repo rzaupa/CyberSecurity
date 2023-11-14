@@ -31,12 +31,16 @@ def XORencode(message, KEY="c4mPar1"):
     return xored
 
 # Easy-to-use function, that looks useful
-def ROTencode(message, pos):
-    rot13_enc = ''
-    for c in message:
-        i = ALPHABET.index(c)
-        rot13_enc += ALPHABET[(i+pos)%LEN]
-    return rot13_enc
+def ROTencode(ciphertext, pos):
+    rot_dec = ''
+    for c in ciphertext:
+        if c in ALPHABET:
+            i = ALPHABET.index(c)
+            rot_dec += ALPHABET[(i - pos) % LEN]
+        else:
+            rot_dec += c  # Mantiene i caratteri non presenti nell'alfabeto invariati
+    return rot_dec
+
 
 # a useless method that could be replaced by a single line of code
 # why not?
