@@ -19,3 +19,4 @@ docker run -it \
 docker stop xoring && docker rm -v xoring
 docker exec -u 0 -it xoring bash
 ```
+x
