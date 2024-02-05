@@ -54,3 +54,8 @@ Debugging:
 3. run o r
 4. jump nomefunzione
 5. disas main
+
+### PLTGOT
+
+avere gdb-peda e fare checksec per valutare RELRO
+usare radare2
