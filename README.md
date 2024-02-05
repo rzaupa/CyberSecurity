@@ -59,3 +59,43 @@ Debugging:
 
 avere gdb-peda e fare checksec per valutare RELRO
 usare radare2
+
+### Assembly
+
+Movimento dei dati:
+
+- MOV: Trasferisce dati da una posizione all'altra.
+- LEA: Carica l'indirizzo effettivo di un operando nella destinazione.
+- LDM, STM: Carica o memorizza dati in memoria.
+
+Aritmetica:
+
+- ADD, SUB: Somma o sottrae valori.
+- MUL, DIV: Moltiplica o divide valori.
+- INC, DEC: Incrementa o decrementa il valore di una variabile.
+
+Controllo del flusso:
+
+- JMP: Salto incondizionato a un'etichetta specifica.
+- JE, JNE, JZ, JNZ: Istruzioni di salto condizionato.
+- CMP: Compara due operandi.
+
+Gestione delle stringhe:
+
+- MOVSB, MOVSW, MOVSD: Spostano una stringa di byte, parole o doppie parole.
+- LODSB, LODSW, LODSD: Caricano un byte, una parola o una doppia parola da una stringa.
+- STOSB, STOSW, STOSD: Memorizzano un byte, una parola o una doppia parola in una stringa.
+
+Chiamate di funzioni e Stack:
+
+- CALL: Chiama una procedura o una funzione.
+- RET: Restituisce il controllo dalla chiamata di una funzione.
+- PUSH, POP: Inserisce o rimuove dati dallo stack.
+
+I/O:
+
+- IN, OUT: Legge o scrive da o verso una porta di I/O.
+Altre istruzioni:
+
+- NOP: Nessuna operazione.
+- HLT: Arresta l'esecuzione del programma.
