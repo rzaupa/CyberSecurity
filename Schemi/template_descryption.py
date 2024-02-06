@@ -40,4 +40,10 @@ def stringBinaryToStringText(binary):
         message += character
     return message
 
+def replace_chars(input_string, char_dict):
+    result = ""
+    for char in input_string:
+        result += char_dict.get(char, char)
+    return result
+
 print(reverse_base64_decode(ROTdecode(encrypted_message, 13)))
