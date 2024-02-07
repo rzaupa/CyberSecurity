@@ -12,6 +12,8 @@ Es non risolti:
 
 ## Utili
 
+https://github.com/obviouslynotraffa/Cybersecurity.git
+
 ### Reverse
 
 Usare IDA
