@@ -1,5 +1,6 @@
 after decompiling the program with ghidra, i can see that the correct inputs are randomly generated at runtime.
 
+
 I can patch the JZ instructions to JMP in order to make the program accept every input!
 
 ```c

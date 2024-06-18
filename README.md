@@ -62,7 +62,7 @@ Debugging:
 avere gdb-peda e fare checksec per valutare RELRO
 usare radare2
 
-### Assembly
+### Assemblyò
 
 Movimento dei dati:
 
@@ -101,3 +101,4 @@ Altre istruzioni:
 
 - NOP: Nessuna operazione.
 - HLT: Arresta l'esecuzione del programma.
+
