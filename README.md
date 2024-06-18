@@ -13,6 +13,9 @@ Es non risolti:
 ## Utili
 
 https://github.com/obviouslynotraffa/Cybersecurity.git
+https://www.base64decode.org/
+https://www.dcode.fr/xor-cipher
+https://www.tunnelsup.com/hash-analyzer/
 
 ### Reverse
 

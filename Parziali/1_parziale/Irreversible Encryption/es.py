@@ -42,8 +42,9 @@ def base64decode(message):
     b64_message = b64_bytes.decode('ascii')
     return b64_message
 
-hex_encrypted = hex_to_ascii(text)
-decoded = XORdecode(hex_encrypted.decode('ascii'))
+hex_encrypted = binascii.unhexlify(text)
+decoded = hex_encrypted.decode('ascii')
+decoded = XORdecode(decoded)
 
 for _ in range(15):
     decoded = ROTencode(decoded, -3)
